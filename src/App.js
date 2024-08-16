@@ -6,7 +6,7 @@ function App() {
   const [started, setStarted] = useState(null);
 
   return (
-    <div className="App">
+    <div className="h-screen ">
       <h1>Example React component with AR </h1>
 
       <div className="control-buttons">
