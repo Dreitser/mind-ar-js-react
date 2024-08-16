@@ -15,12 +15,12 @@ function App() {
         {started !== null && <button onClick={() => {setStarted(null)}}>Stop</button>}
       </div>
 
-      {started === 'aframe' && (
-        <div class="h-screen fixed top-0 left-0 right-0 bottom-0" >
-          < MindARViewer class="h-screen" />
+
+        <div className="h-screen absolute inset-0 " >
+          < MindARViewer className="h-screen " />
           <video></video>
         </div>
-      )}
+      
 
 
     </div>
