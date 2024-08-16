@@ -1,8 +1,10 @@
 import React, { useEffect, useRef } from 'react';
 import {MindARThree} from 'mind-ar/dist/mindar-image-three.prod.js';
 import * as THREE from 'three';
+import { sRGBEncoding } from 'three';
+import { LinearEncoding } from 'three';
 
-const ARComponent = () => {
+const MindARThreeViewer = () => {
   const containerRef = useRef(null);
 
   useEffect(() => {
@@ -34,4 +36,4 @@ const ARComponent = () => {
   )
 }
 
-export default ARComponent;
+export default MindARThreeViewer;
