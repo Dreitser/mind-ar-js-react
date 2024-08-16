@@ -8,9 +8,8 @@
 }
 
 .container {
-  margin: 20px auto;
-  position: relative;
-  height: 300px;
-  width: 600px;
+  margin: 0 0 ;
+  position: absolute;
+
   overflow: hidden;
 }

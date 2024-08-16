@@ -16,8 +16,8 @@ function App() {
       </div>
 
       {started === 'aframe' && (
-        <div className="container h-screen" >
-          < MindARViewer class="h-screen" />
+        <div className="container h-screen absolute" >
+          < MindARViewer class="h-screen absolute" />
           <video></video>
         </div>
       )}
