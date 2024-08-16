@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import {MindARThree} from 'mind-ar/dist/mindar-image-three.prod.js';
 import * as THREE from 'three';
 
-export default () => {
+const ARComponent = () => {
   const containerRef = useRef(null);
 
   useEffect(() => {
@@ -34,3 +34,4 @@ export default () => {
   )
 }
 
+export default ARComponent;
